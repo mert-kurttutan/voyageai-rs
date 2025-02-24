@@ -1,0 +1,10 @@
+[package]
+name = "voyageai"
+version = "0.0.1"
+edition = "2024"
+authors = ["mert-kurttutan"]
+description = "Unofficial Voyage AI SDK for Rust"
+readme = "./README.md"
+license = "MIT"
+keywords = ["ai", "sdk"]
+repository = "https://github.com/mert-kurttutan/voyageai-rs"
