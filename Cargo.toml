@@ -8,3 +8,9 @@ readme = "./README.md"
 license = "MIT"
 keywords = ["ai", "sdk"]
 repository = "https://github.com/mert-kurttutan/voyageai-rs"
+
+[dependencies]
+reqwest = { version = "0.12.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+dotenvy = "0.15.7"
+serde_json = "1.0.140"
